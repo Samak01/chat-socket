@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Created with https://www.css-gradient.com */
+background: #97CF21;
+background: -webkit-linear-gradient(top left, #97CF21, #6FDAA7);
+background: -moz-linear-gradient(top left, #97CF21, #6FDAA7);
+background: linear-gradient(to bottom right, #97CF21, #6FDAA7);
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    height: auto;    
+    background: #97CF21;
+background: -webkit-linear-gradient(top left, #2721cf, #c56a20);
+background: -moz-linear-gradient(top left, #2721cf, #c56a20);
+background: linear-gradient(to bottom right, #2721cf, #c56a20);
+padding: 20px;
+}
+
+.container h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.container input{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid green;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.container select{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.container button{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    /* margin: 20px; */
+    background: rgb(92, 142, 92);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.5s;
+}   
+
+.container button:hover{
+    transform: scale(1.05);
+}
+
+.chat_feild{
+  width: 100%;
+  background-color: #3d4134;
+}
+
+.messagesColumn {
+    height: 85vh;
+    width: 800px;
+    overflow-y: scroll;
+  }
+  .message {
+    background: #4D21CF;
+    background: -webkit-linear-gradient(top left, #4D21CF, #DB7070);
+    background: -moz-linear-gradient(top left, #4D21CF, #DB7070);
+    background: linear-gradient(to bottom right, #4D21CF, #DB7070);
+    border-radius: 6px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin: 12px;
+    padding: 12px;
+    float: left;
+  }
+  .msgMeta {
+    color: rgb(153, 217, 234);
+    font-size: 0.75rem;
+  }
+  .msgText {
+    color: #fff;
+  }
+  
+
+
+  .chatContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+  }
+  
+  /* Room and users component */
+  .roomAndUsersColumn {
+    border-right: 1px solid #dfdfdf;
+  }
+  .roomTitle {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .usersTitle {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .usersList {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 60px;
+    color: rgb(153, 217, 234);
+  }
+  .usersList li {
+    margin-bottom: 12px;
+  }
+
+  .sendMessageContainer {
+    padding: 10;
+    display: flex;
+    justify-content: space-between;
+  }
+  .messageInput {
+    padding: 14px;
+    margin-right: 16px;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid rgb(153, 217, 234);
+    font-size: 0.9rem;
+    outline: none;
+  }
+
+  .btn-primary{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .btn-primary:hover{
+    transform: scale(0.9);
+  }
